@@ -62,7 +62,7 @@
 				<div class="banner">
 					<h1 class="hero-title">Эффективные решения<br />
 						для вашего бизнеса</h1>
-					<a href="" class="button">Заказать услугу</a>
+					<button class="button" data-modal-open>Заказать услугу</button>
 				</div>
 			</section>
 
@@ -445,9 +445,22 @@
 				<!-- <div class="mailing">
 					<b>Подпишитесь на рассылку</b>
 
-					<a href="" class="button">Подписаться</a>
+					<button class="button">Подписаться</button>
 				</div> -->
 			</div>
 		</footer>
+
+		<div class="backdrop is-hidden" data-modal>
+
+			<div class="modal">
+				<button type="button" class="modal-icon" data-modal-close>
+					<svg class="close-icon" width="11" height="11">
+						<use href="./sprite.svg#icon-close-cross"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
+
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
