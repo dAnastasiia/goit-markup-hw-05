@@ -875,8 +875,10 @@ footer .container.flexbox {
 }
 
 .modal-icon:hover,
-.modal-icon:focus{
+.modal-icon:focus,
+.modal-icon:active{
 	cursor: pointer;
+	outline: none;
 }
 
 .close-icon{
